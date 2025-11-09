@@ -3,14 +3,14 @@ import './App.css';
 import profilePic from "./profile.jpg";
 import { Github, Linkedin, Mail, Phone, MapPin, Code, Briefcase, GraduationCap, Award, Trophy } from 'lucide-react';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello from React</h1>
-      <p>This should be styled by App.css</p>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div>
+//       <h1>Hello from React</h1>
+//       <p>This should be styled by App.css</p>
+//     </div>
+//   );
+// }
 
 export default function Portfolio() {
   const portfolioData = {
@@ -271,3 +271,5 @@ export default function Portfolio() {
     </div>
   );
 }
+// export default App;
+
